@@ -2,7 +2,7 @@
 import "./navbar.css";
 // ? types
 import { navLinks } from "@/types";
-//
+// fontAwesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
@@ -22,7 +22,7 @@ export default function Navbar() {
   return (
     <>
       <header className="px-[2rem] py-[0.8rem] bg-slate-800 sticky top-0  max-w-[80rem] mx-auto">
-        <nav className="grid grid-cols-[20%_1fr_20%] items-">
+        <nav className="grid grid-cols-[20%_1fr_20%] items-center">
           <span className="text-white">Ecommerce</span>
           <ul
             role="list"
